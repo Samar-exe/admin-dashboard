@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.main {
+	height: 100vh;
+	display: grid;
+	background-color: grey;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 1fr 4fr;
+	grid-template-areas: "side head head"
+		"side cards promo";
+}
+
+.side {
+	background-color: #082f49;
+	grid-area: side;
+}
+
+.head {
+
+	grid-area: head;
+	background-color: #0284c7;
+}
+
+.cards {
+	grid-area: cards;
+	background-color: #f0f9ff;
+}
+
+.promo {
+	grid-area: promo;
+	background-color: #f0f9ff;
+}
