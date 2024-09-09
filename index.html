@@ -4,19 +4,270 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Dash</title>
-	<link href="style.css" rel="stylesheet">
 	<title>DashBoard</title>
 	<link href="style.css" rel="stylesheet" id="theme">
 	<script src="script.js" defer></script>
 </head>
 
 <body>
-	<div class="main">
-		<div class="side">side</div>
-		<div class="head">head</div>
-		<div class="cards">cards</div>
-		<div class="promo">promo</div>
+	<div class="dash">
+		<div class="side">
+			<div class="branding">
+				<img src="assets/admin-logo.svg" alt="" class="branding-logo">
+				<p class="branding-txt">Dashboard</p>
+			</div>
+			<div class="nav">
+				<ul class="nav-ul">
+					<li class="selected">
+						<img class="nav-logo" src="assets/home.svg" alt="">
+						<p>Home</p>
+					</li>
+					<li>
+						<img class="nav-logo" src="assets/profile.svg" alt="">
+						<p>Profile</p>
+					</li>
+					<li>
+						<img src="assets/message.svg" class="nav-logo" alt="">
+						<p>Messages</p>
+					</li>
+					<li>
+						<img src="assets/history.svg" class="nav-logo" alt="">
+						<p>History</p>
+					</li>
+					<li>
+						<img src="assets/tasks.svg" alt="" class="nav-logo">
+						<p>Tasks</p>
+					</li>
+					<li>
+						<img src="assets/people.svg" alt="" class="nav-logo">
+						<p>Communities</p>
+					</li>
+				</ul>
+				<ul class="nav-ul">
+					<li>
+						<img src="assets/settings.svg" alt="" class="nav2-logo">
+						<p>Settings</p>
+					</li>
+					<li>
+						<img src="assets/support.svg" alt="" class="nav2-logo">
+						<p>Support</p>
+					</li>
+					<li>
+						<img src="assets/privacy.svg" alt="" class="nav2-logo">
+						<p>Privacy</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="head">
+			<div class="search">
+				<img src="assets/search.svg" alt="" class="search-logo">
+				<input type="" name="" value="" class="search-bar">
+			</div>
+			<div class="notifications">
+				<img src="assets/bell.svg" alt="" class="notify-logo">
+				<div class="notify-pic">
+					<img src="assets/profile.jpg" alt="">
+				</div>
+				<p class="notify-txt">Samar Khan</p>
+			</div>
+			<div class="greet">
+				<div class="greet-pic">
+					<img src="assets/profile.jpg" alt="">
+				</div>
+				<p class="greet-txt">Hi there,</p>
+				<p class="greet-name">Samar Khan (@samar-exe)</p>
+			</div>
+			<div class="task">
+				<div class="task-btn">New</div>
+				<div class="task-btn">Upload</div>
+				<div class="task-btn">Share</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="card-section">
+				<p class="cards-lbl">Your Projects</p>
+				<div class="card-container">
+					<div class="card">
+						<p class="card-head">Calculator</p>
+						<p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+							Suscipit
+							dignissimos inventore rerum numquam quisquam deserunt quaerat
+							reprehenderit
+						</p>
+						<div class="links">
+
+							<svg class="creds star" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24">
+								<path
+									d="M16.23,18L12,15.45L7.77,18L8.89,13.19L5.16,9.96L10.08,9.54L12,5L13.92,9.53L18.84,9.95L15.11,13.18L16.23,18M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+							</svg>
+							<a href="https://Samar-exe.github.io/Calculator"><img
+									class="creds" src="assets/github.svg"
+									alt=""></a>
+						</div>
+					</div>
+					<div class="card">
+						<p class="card-head">Sign up form</p>
+						<p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+							Suscipit
+							dignissimos inventore rerum numquam quisquam deserunt quaerat
+							reprehenderit
+						</p>
+						<div class="links">
+
+							<svg class="creds star" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24">
+								<path
+									d="M16.23,18L12,15.45L7.77,18L8.89,13.19L5.16,9.96L10.08,9.54L12,5L13.92,9.53L18.84,9.95L15.11,13.18L16.23,18M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+							</svg>
+							<a href="https://Samar-exe.github.io/odin-sign-up"><img
+									class="creds" src="assets/github.svg"
+									alt=""></a>
+						</div>
+					</div>
+					<div class="card">
+						<p class="card-head">Rock paper Scissors</p>
+						<p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+							Suscipit
+							dignissimos inventore rerum numquam quisquam deserunt quaerat
+							reprehenderit
+						</p>
+						<div class="links">
+							<svg class="creds star" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24">
+								<path
+									d="M16.23,18L12,15.45L7.77,18L8.89,13.19L5.16,9.96L10.08,9.54L12,5L13.92,9.53L18.84,9.95L15.11,13.18L16.23,18M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+							</svg>
+							<a href="https://Samar-exe.github.io/rock-paper-scissors"><img
+									class="creds" src="assets/github.svg"
+									alt=""></a>
+						</div>
+					</div>
+					<div class="card">
+						<p class="card-head">Dwm dots</p>
+						<p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+							Suscipit
+							dignissimos inventore rerum numquam quisquam deserunt quaerat
+							reprehenderit
+						</p>
+						<div class="links">
+							<svg class="creds star" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24">
+								<path
+									d="M16.23,18L12,15.45L7.77,18L8.89,13.19L5.16,9.96L10.08,9.54L12,5L13.92,9.53L18.84,9.95L15.11,13.18L16.23,18M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+							</svg>
+							<a href="https://github.com/Samar-exe/dotfiles/tree/main/dwm"><img
+									class="creds" src="assets/github.svg"
+									alt=""></a>
+						</div>
+					</div>
+					<div class="card">
+						<p class="card-head">Awesome dots</p>
+						<p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+							Suscipit
+							dignissimos inventore rerum numquam quisquam deserunt quaerat
+							reprehenderit
+						</p>
+						<div class="links">
+							<svg class="creds star" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24">
+								<path
+									d="M16.23,18L12,15.45L7.77,18L8.89,13.19L5.16,9.96L10.08,9.54L12,5L13.92,9.53L18.84,9.95L15.11,13.18L16.23,18M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+							</svg>
+							<a
+								href="https://github.com/Samar-exe/dotfiles/tree/main/awesome"><img
+									class="creds" src="assets/github.svg"
+									alt=""></a>
+						</div>
+					</div>
+
+					<div class="card">
+						<p class="card-head">Etch a sketch</p>
+						<p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+							Suscipit
+							dignissimos inventore rerum numquam quisquam deserunt quaerat
+							reprehenderi</p>
+						<div class="links">
+							<!-- <img class="creds star star" src="assets/star.svg" alt=""> -->
+							<svg class="creds star" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24">
+								<path
+									d="M16.23,18L12,15.45L7.77,18L8.89,13.19L5.16,9.96L10.08,9.54L12,5L13.92,9.53L18.84,9.95L15.11,13.18L16.23,18M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+							</svg>
+							<a><img class="creds" src="assets/github.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-two">
+				<div class="banner">
+					<p class="ann">Annoucements</p>
+					<div class="ann-card">
+						<div class="ann-card-info">
+							<h6>Site Maintenance</h6>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Numquam
+							</p>
+						</div>
+						<div class="ann-card-info">
+
+							<h6>Community Share Day</h6>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Numquam
+							</p>
+						</div>
+						<div class="ann-card-info">
+
+							<h6>Updated Privacy Policy</h6>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Numquam
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="trending">
+					<p class="trending-head">Trending</p>
+					<div class="trending-card">
+						<div class="trending-account">
+							<div class="trending-account-image">
+								<img src="assets/tegan.jpg" alt="">
+							</div>
+							<p class="trending-account-id">@tegan</p>
+							<p class="trending-account-desc">World Peace Builder</p>
+						</div>
+
+						<div class="trending-account">
+							<div class="trending-account-image">
+								<img src="assets/morgan.jpg" alt="">
+							</div>
+							<p class="trending-account-id">@morgan</p>
+							<p class="trending-account-desc">Super Cool Project</p>
+						</div>
+						<div class="trending-account">
+							<div class="trending-account-image">
+								<img src="assets/kendall.jpg" alt="">
+							</div>
+							<p class="trending-account-id">@kendall</p>
+							<p class="trending-account-desc">Life Changin App</p>
+						</div>
+						<div class="trending-account">
+							<div class="trending-account-image">
+								<img src="assets/alex.jpg" alt="">
+							</div>
+							<p class="trending-account-id">@alex</p>
+							<p class="trending-account-desc">No Traffic Maker</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 
